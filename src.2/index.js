@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Field from './componet/field';
+import First, {Second} from './componet/fristComponent';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Field initialValue='Teste' />
+  <div>
+    <First texto="Componente 1 ok" />
+    <Second texto="Componente 2 ok" />
+  </div>
+  
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

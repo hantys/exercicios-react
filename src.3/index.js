@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Field from './componet/field';
+import SilvaFamily from './componet/silvaFamily';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Field initialValue='Teste' />
+  <SilvaFamily />
+  
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
